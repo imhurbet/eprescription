@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="eprescription.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+       <title>District Coordinator</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/font/material-design-icons/Material-Design-Icons.woff'>
+    <link href="css/main.css" rel="stylesheet" />
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js'></script><script  src="./script.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+      <ul id="slide-out" class="side-nav fixed z-depth-2">
+    <li class="center no-padding">
+      <div class="red darken-2 white-text" style="height: 180px;">
+        <div class="row">
+          <img style="margin-top: 5%;" width="100" height="100" src="" alt="This will be the logo" class="circle responsive-img" />
+          <p style="margin-top: 10%;">
+            <h4>Info Dynamic</h4> 
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li id="dash_dashboard"><a class="waves-effect" href="frmCoordinatorLanding.aspx"><b>Dashboard</b></a></li>
+    <li id="dash_users"><a class="waves-effect" href="frmAddCenter.aspx"><b>Add Center</b></a></li>
+    <li id="dash_users"><a class="waves-effect" href="frmViewCenter.aspx"><b>View Center</b></a></li>
+    <li id="dash_users"><a class="waves-effect" href="frmDistrictProgrammes.aspx"><b>View Programmes</b></a></li>
+    <li id="dash_users"><a class="waves-effect" href="frmAddCenterManager.aspx"><b>Add Center Manager</b></a></li>
+    <li id="dash_users"><a class="waves-effect" href="frmDistrictReport.aspx"><b>Report</b></a></li>
+  </ul>
+
+  <header>
+    <ul class="dropdown-content" id="user_dropdown">
+      <li><a class="indigo-text" href="#!">Profile</a></li>
+      <li><a class="indigo-text" href="frmLogin.aspx">Logout</a></li>
+    </ul>
+
+    <nav class="red" role="navigation">
+      <div class="nav-wrapper">
+
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a class='right dropdown-button' href='' data-activates='user_dropdown'><i class=' material-icons'>account_circle</i></a>
+          </li>
+        </ul>
+
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </nav>
+
+    <nav>
+      <div class="nav-wrapper red darken-2">
+        <a style="margin-left: 20px;" class="breadcrumb" href="#!">District Coordinator</a>
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+   <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolder1"></asp:ContentPlaceHolder>
+  </main>
+
+  <footer class="red page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+         <span>Made By <a style='font-weight: bold;' href="#" target="_blank">Info Dynamic</a></span>
+      </div>
+    </div>
+  </footer>
+    </form>
+</body>
+</html>
+
