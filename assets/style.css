@@ -1,0 +1,183 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c5dae4;
+}
+
+form {
+    width: 500px;
+    margin: 3rem auto 0;
+    background-color: #c5dae4;
+}
+
+    form label {
+        position: relative;
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        background-color: #c5dae4;
+    }
+
+        form label span {
+            color: #555;
+            display: block;
+            position: absolute;
+            top: 1rem;
+            left: 0.55rem;
+            padding: 0.1em 0.5em;
+            z-index: 2;
+            transition: all 0.25s ease-in-out;
+        }
+
+        form label input[type=text] {
+            display: block;
+            background: #efefef;
+            width: 100%;
+            padding: 1rem 1rem;
+            border: 2px solid #efefef;
+            border-radius: 5px;
+            z-index: 0;
+            transition: background 0.25s ease-in-out;
+        }
+
+            form label input[type=text]:focus, form label input[type=text]:valid {
+                border: 2px solid #b6daf2;
+                background: white;
+                outline: none;
+            }
+
+                form label input[type=text]:focus + span, form label input[type=text]:valid + span {
+                    background: white;
+                    color: #0d96c9;
+                    top: -0.5em;
+                    transition: all 0.25s ease-in-out;
+                }
+
+                form label input[type=text]:focus:invalid {
+                    border-color: #1c243c;
+                }
+
+                    form label input[type=text]:focus:invalid + span {
+                        color: #1c243c;
+                    }
+
+            form label input[type=text]::-webkit-input-placeholder {
+                color: transparent;
+                transition: color 0.25s ease-in-out;
+            }
+
+            form label input[type=text]::-moz-placeholder {
+                color: transparent;
+                transition: color 0.25s ease-in-out;
+            }
+
+            form label input[type=text]:-ms-input-placeholder {
+                color: transparent;
+                transition: color 0.25s ease-in-out;
+            }
+
+            form label input[type=text]:-moz-placeholder {
+                color: transparent;
+                transition: color 0.25s ease-in-out;
+            }
+
+
+
+
+        form label input[type=password] {
+            display: block;
+            background: #efefef;
+            width: 100%;
+            padding: 1rem 1rem;
+            border: 2px solid #efefef;
+            border-radius: 5px;
+            z-index: 0;
+            transition: background 0.25s ease-in-out;
+        }
+
+            form label input[type=password]:focus, form label input[type=password]:valid {
+                border: 2px solid #b6daf2;
+                background: white;
+                outline: none;
+            }
+
+                form label input[type=password]:focus + span, form label input[type=password]:valid + span {
+                    background: white;
+                    color: #75b9e7;
+                    top: -0.5em;
+                    transition: all 0.25s ease-in-out;
+                }
+
+                form label input[type=password]:focus:invalid {
+                    border-color: #1c243c
+                }
+
+                    form label input[type=password]:focus:invalid + span {
+                        color: #1c243c;
+                    }
+
+            form label input[type=password]::-webkit-input-placeholder {
+                color: transparent;
+                transition: color 0.25s ease-in-out;
+            }
+
+            form label input[type=password]::-moz-placeholder {
+                color: transparent;
+                transition: color 0.25s ease-in-out;
+            }
+
+            form label input[type=password]:-ms-input-placeholder {
+                color: transparent;
+                transition: color 0.25s ease-in-out;
+            }
+
+            form label input[type=password]:-moz-placeholder {
+                color: transparent;
+                transition: color 0.25s ease-in-out;
+            }
+
+
+
+/* Card */
+.card {
+    margin-left: auto;
+    width: 40vw;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px 0 20px 0;
+    box-sizing: border-box;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+}
+
+    .card .title {
+        position: relative;
+        z-index: 1;
+        border-right: 5px solid #1c243c;
+        border-left: 5px solid #1c243c;
+        margin: 0 0 35px;
+        padding: 10px 0 10px 50px;
+        color: #1c243c;
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+
+
+/*Align textboxes*/
+.displayline {
+    width: 22%;
+    padding-right: 20px;
+}
+
+.border {
+    max-width: 100%;
+    display: flex;
+}
+
+a:hover {
+    color: red;
+}

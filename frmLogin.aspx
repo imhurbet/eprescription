@@ -17,18 +17,18 @@
 
         <div class="card">
               <div class="title">
-                <h1 >Welcome to DKM - Login</h1>
+                <h1 >Welcome to DKm - Login</h1>
             </div>
             <div>
                 <label for="username">
-		        <input required="" runat="server" type="text" name="username" placeholder="Username" id="username" />
+		        <input required runat="server" type="text" name="username" placeholder="Username" id="username" />
 		        <span>Username</span>
 	        </label>
             </div>
             
 	    <div>
 	        <label for="password">
-	              	<input required="" runat="server" type="password" name="password" placeholder="password" id="password"/>
+	              	<input required runat="server" type="password" name="password" placeholder="password" id="password"/>
 		            <span>Password</span>
 	        </label>
         </div>
