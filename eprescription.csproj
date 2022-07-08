@@ -118,9 +118,18 @@
     <Content Include="css\styles.css" />
     <Content Include="Default.aspx" />
     <Content Include="assets\favicon.ico" />
+    <Content Include="frmActiveIngredientRecords.aspx" />
     <Content Include="frmAdminLanding.aspx" />
+    <Content Include="frmConditionDiagnosisRecords.aspx" />
+    <Content Include="frmContraIndicationRecords.aspx" />
+    <Content Include="frmDoctorRecords.aspx" />
     <Content Include="frmForgotPassword.aspx" />
     <Content Include="frmLogin.aspx" />
+    <Content Include="frmMedicalPractice.aspx" />
+    <Content Include="frmMedicationInteractionRecords.aspx" />
+    <Content Include="frmMedicationRecords.aspx" />
+    <Content Include="frmPharmacistRecords.aspx" />
+    <Content Include="frmPharmacyRecords.aspx" />
     <Content Include="frmRegistration.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -282,12 +291,40 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="frmActiveIngredientRecords.aspx.cs">
+      <DependentUpon>frmActiveIngredientRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmActiveIngredientRecords.aspx.designer.cs">
+      <DependentUpon>frmActiveIngredientRecords.aspx</DependentUpon>
+    </Compile>
     <Compile Include="frmAdminLanding.aspx.cs">
       <DependentUpon>frmAdminLanding.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="frmAdminLanding.aspx.designer.cs">
       <DependentUpon>frmAdminLanding.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmConditionDiagnosisRecords.aspx.cs">
+      <DependentUpon>frmConditionDiagnosisRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmConditionDiagnosisRecords.aspx.designer.cs">
+      <DependentUpon>frmConditionDiagnosisRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmContraIndicationRecords.aspx.cs">
+      <DependentUpon>frmContraIndicationRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmContraIndicationRecords.aspx.designer.cs">
+      <DependentUpon>frmContraIndicationRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoctorRecords.aspx.cs">
+      <DependentUpon>frmDoctorRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmDoctorRecords.aspx.designer.cs">
+      <DependentUpon>frmDoctorRecords.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmForgotPassword.aspx.cs">
       <DependentUpon>frmForgotPassword.aspx</DependentUpon>
@@ -302,6 +339,41 @@
     </Compile>
     <Compile Include="frmLogin.aspx.designer.cs">
       <DependentUpon>frmLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmMedicalPractice.aspx.cs">
+      <DependentUpon>frmMedicalPractice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmMedicalPractice.aspx.designer.cs">
+      <DependentUpon>frmMedicalPractice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmMedicationInteractionRecords.aspx.cs">
+      <DependentUpon>frmMedicationInteractionRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmMedicationInteractionRecords.aspx.designer.cs">
+      <DependentUpon>frmMedicationInteractionRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmMedicationRecords.aspx.cs">
+      <DependentUpon>frmMedicationRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmMedicationRecords.aspx.designer.cs">
+      <DependentUpon>frmMedicationRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPharmacistRecords.aspx.cs">
+      <DependentUpon>frmPharmacistRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPharmacistRecords.aspx.designer.cs">
+      <DependentUpon>frmPharmacistRecords.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmPharmacyRecords.aspx.cs">
+      <DependentUpon>frmPharmacyRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmPharmacyRecords.aspx.designer.cs">
+      <DependentUpon>frmPharmacyRecords.aspx</DependentUpon>
     </Compile>
     <Compile Include="frmRegistration.aspx.cs">
       <DependentUpon>frmRegistration.aspx</DependentUpon>
