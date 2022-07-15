@@ -16,7 +16,7 @@
     <form id="form1" runat="server">
         <div class="card">
               <div class="title">
-                <h1 >Welcome to Dynamics - Forgot Password</h1>
+                <h1 >Welcome to DKM - Forgot Password</h1>
             </div>
             <div>
                 <label for="emailAddress">

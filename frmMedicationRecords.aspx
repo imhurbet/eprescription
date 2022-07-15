@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmMedicationRecords.aspx.cs" Inherits="eprescription.frmMedicationRecords" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/AdminMaster.Master" AutoEventWireup="true" CodeBehind="frmMedicationRecords.aspx.cs" Inherits="eprescription.frmMedicationRecords" %>
 
 <!DOCTYPE html>
 

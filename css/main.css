@@ -42,7 +42,7 @@ body {
 }
 
 .displayline {
-    width: 22%;
+    width: 39%;
     padding-right: 20px;
 }
 
@@ -53,4 +53,5 @@ body {
 
 select {
     display: initial;
+    margin-left: 0px;
 }
